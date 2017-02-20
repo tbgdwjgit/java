@@ -44,7 +44,7 @@ public class SwitchTest{
 
 		}
 
-
+        //jdk1.5
         E e = E.B;
         switch (e) {
 	        case A:
@@ -63,53 +63,21 @@ public class SwitchTest{
 	            System.out.println(0);
         }
 
-
-
-  //       String str = "z";
-
-		// switch (str) {
-		// 	case "t" :
-		// 	    System.out.println(str);
-		// 	    break;
-		// 	case "z" :
-		// 		System.out.println(str);
-		// 		break;	
-		// 	case "n" :
-		// 		System.out.println(str);
-		// 		break;
-		// 	case "j" :
-		// 		System.out.println(str);
-		// 		break;	
-		// 	default :
-		// 		System.out.println("Null");									
-
-		// }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        //jdk1.7
+		String str = "qC";
+		switch (str) {
+		case "AB":
+		    System.out.println("AB");
+		    break;
+		case "BC":
+		    System.out.println("BC");
+		    break;
+		case "qC":
+		    System.out.println("qC");
+		    break;
+		default:
+		    System.out.println(0);
+		}
 
 	}
 }
