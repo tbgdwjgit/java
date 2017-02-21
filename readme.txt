@@ -11,3 +11,32 @@ HasStatic.java
 
 OverrideTest.java
 覆盖时不能改变返回类型
+
+switch 控制表达式支持的类型有byte、short、char、int、enum（Java 5）、String(Java 7)。
+switch-case语句完全可以与if-else语句互转，但通常来说，switch-case语句执行效率要高。
+
+        int num = 1_000_123;
+        System.out.println(num);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
