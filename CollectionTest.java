@@ -31,9 +31,12 @@ public class CollectionTest{
 
         //Map
         Map<String,String> map = new HashMap<String,String>();
-        map.put("qd","dsds");
+        map.put("qd1","dsds1");
+        map.put("qd2","dsds2");
+        map.put("qd3","dsds3");
+        map.put("qd4","dsds4");
         System.out.println(map.size());
-
+        System.out.println(map.get("qd3"));
 
 
     }
