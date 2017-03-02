@@ -37,7 +37,18 @@ public class CollectionTest{
         map.put("qd4","dsds4");
         System.out.println(map.size());
         System.out.println(map.get("qd3"));
-
+        //key
+        for(String s:map.keySet()){
+            System.out.println(s);
+        }
+        //value
+        for(String s:map.values()){
+            System.out.println(s);
+        }
+        //k,v
+        for(Map.Entry<String,String> entry:map.entrySet()){
+            System.out.println(entry.getKey() +" "+entry.getValue());
+        }
 
     }
 
