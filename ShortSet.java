@@ -20,6 +20,15 @@ class ShortSet{
 
     }
 
+    public static void main(int[] args) { 
+        String c = a+b; 
+        //System.out.println(null); 
+        System.out.println(c); 
+        sort();
+
+
+    }
+
     static void sort(){
       int [] array={51,31,71,9,1,21};
       for(int i=0;i<array.length-1;i++){
