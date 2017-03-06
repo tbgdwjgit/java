@@ -4,13 +4,38 @@ class ShortSet{
 
     private static String a; 
     private static String b; 
+
+    static void doSomething () {
+      String s = "";
+      int l = s.length();
+    }
+
  
     public static void main(String[] args) { 
         String c = a+b; 
         //System.out.println(null); 
         System.out.println(c); 
+        sort();
+
+
     }
 
+    static void sort(){
+      int [] array={51,31,71,9,1,21};
+      for(int i=0;i<array.length-1;i++){
+        for(int j=0;j<array.length-i-1;j++){
+          if(array[j]>array[j+1]){
+            int emp=  array[j];
+            array[j]=array[j+1];
+            array[j+1]=emp;
+          }
+        }
+      }
+
+      for(int i:array){
+        System.out.println(i);
+      }
+    }
 
     // public static void main(String args[]) {
     // 	// try{
@@ -44,6 +69,12 @@ class ShortSet{
 
     // }
 
+}
+
+class testMain{
+    public static void main(String[] args) {        
+        System.out.println("Do something ...");
+    }
 }
 
 abstract class Name {
