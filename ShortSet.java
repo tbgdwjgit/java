@@ -17,16 +17,15 @@ class ShortSet{
         System.out.println(c); 
         sort();
 
-
+        // int[] arr = new int[10];
+        // main(arr);
     }
 
     public static void main(int[] args) { 
         String c = a+b; 
         //System.out.println(null); 
-        System.out.println(c); 
+        System.out.println(c+"1"); 
         sort();
-
-
     }
 
     static void sort(){
