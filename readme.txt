@@ -18,6 +18,18 @@ switch-case语句完全可以与if-else语句互转，但通常来说，switch-c
 int num = 1_000_123;
 System.out.println(num);
 
+String:是对象不是原始类型.
+           为不可变对象,一旦被创建,就不能修改它的值.
+           对于已经存在的String对象的修改都是重新创建一个新的对象,然后把新的值保存进去.
+           String 是final类,即不能被继承.
+ 
+StringBuffer:
+           是一个可变对象,当对他进行修改的时候不会像String那样重新建立对象
+           它只能通过构造函数来建立,
+          StringBuffer sb = new StringBuffer();
+          对象被建立以后,在内存中就会分配内存空间,并初始保存一个null.通过它的append方法向其赋值.
+          sb.append("hello");
+
 ArrayList和LinkedList的大致区别： 
      1.ArrayList是实现了基于动态数组的数据结构，LinkedList基于链表的数据结构。 
      2.对于随机访问get和set，ArrayList觉得优于LinkedList，因为LinkedList要移动指针。 
