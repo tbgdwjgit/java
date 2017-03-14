@@ -22,6 +22,12 @@ public class StringTest{
         Date now = new Date();
         System.out.println(getDate(now));
 
+        String str = "abcd";
+        char ca[] = str.toUpperCase().concat("ef").toCharArray();
+        for(char cr:ca){
+            System.out.println(cr);
+        }
+
 
 	}
 
